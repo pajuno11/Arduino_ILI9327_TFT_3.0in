@@ -1,25 +1,28 @@
 # Arduino_ILI9327_TFT_3.0in
 Connect
-LCD to STM32F103C8T6
-CS > PB8
-RS > PB0
-WR > PB1
-RD > PB7
+LCD ILI9327 to STM32F103C8T6 
+--
+ LCD = STM ||
+| CS = PB8 | 
+ RS = PB0 |
+ WR = PB1 |
+ RD = PB7 |
 
-D0 > PA0
-D1 > PA1
-D2 > PA2
-D3 > PA3
-D4 > PA4
-D5 > PA5
-D6 > PA6
-D7 > PA7
+| D0 = PA0 |
+ D1 = PA1 |
+ D2 = PA2 |
+ D3 = PA3 |
+ D4 = PA4 |
+ D5 = PA5 |
+ D6 = PA6 |
+ D7 = PA7 |
 
-TouchScreen
-XP=PA6
-XM=PB0
-YP=PB1
-YM=PA7
+ TouchScreen
+ --
+ XP=PA6 |
+ XM=PB0 |
+ YP=PB1 |
+ YM=PA7 |
 
 -----------------------------------------------------------------------------------------------------------
 mcufriend_shield.h
